@@ -4,7 +4,7 @@ var selectors = [];
 
 function download(url, callback){
   var xhr = new XMLHttpRequest();
-  xhr.open("GET","http://anti15.welfarehost.com/cssproxy.php?cssurl="+encodeURIComponent(url),true);
+  xhr.open("GET","http://anti15.chemicalservers.com/cssproxy.php?cssurl="+encodeURIComponent(url),true);
   xhr.onreadystatechange = function(){
     if(xhr.readyState == 4 && xhr.status == 200){
       callback(xhr.responseText);
